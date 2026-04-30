@@ -433,8 +433,6 @@ ul { list-style: none; padding: 0; margin: 0; }
 }
 .hero__inner {
   padding: 140px var(--container-pad) 100px;
-  position: relative;
-  z-index: 1;
 }
 .hero__content {
   text-align: left;
@@ -447,9 +445,8 @@ ul { list-style: none; padding: 0; margin: 0; }
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  width: clamp(420px, 52vw, 760px);
-  height: clamp(360px, 60vh, 540px);
-  overflow: hidden;
+  width: clamp(480px, 56vw, 880px);
+  height: clamp(420px, 70vh, 640px);
   pointer-events: none;
   z-index: 1;
 }
