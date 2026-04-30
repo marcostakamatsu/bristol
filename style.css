@@ -436,7 +436,7 @@ ul { list-style: none; padding: 0; margin: 0; }
 }
 .hero__content {
   text-align: left;
-  max-width: 540px;
+  max-width: 640px;
   position: relative;
   z-index: 2;
 }
