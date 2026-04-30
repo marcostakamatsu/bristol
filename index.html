@@ -18,7 +18,8 @@
     <div class="container site-header__inner">
 
       <a href="#" class="site-header__logo" aria-label="Bristol Machine Company — Home">
-        <img src="../../Assets/Logos/Main Logo - Color.svg" alt="Bristol Machine Company" />
+        <img src="Assets/Logos/Main Logo - Color.svg" class="site-header__logo-img site-header__logo-img--dark" alt="Bristol Machine Company" />
+        <img src="Assets/Logos/1-Color Version - White.svg" class="site-header__logo-img site-header__logo-img--light" alt="" aria-hidden="true" />
       </a>
 
       <nav class="site-nav" id="siteNav" aria-label="Primary">
@@ -33,17 +34,17 @@
 
       <div class="site-header__actions">
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="site-header__icon" aria-label="LinkedIn">
-          <img src="../../Assets/Icons/linkedin-circle 1.svg" alt="" aria-hidden="true" />
+          <img src="Assets/Icons/linkedin-circle 1.svg" alt="" aria-hidden="true" />
         </a>
         <a href="tel:9095988601" class="site-header__phone">
-          <img src="../../Assets/Icons/phone-call 1.svg" alt="" aria-hidden="true" />
+          <img src="Assets/Icons/phone-call 1.svg" alt="" aria-hidden="true" />
           <span>909.598.8601</span>
         </a>
         <a href="#contact" class="btn btn--primary btn--sm">Request a Quote</a>
       </div>
 
       <button class="site-header__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
-        <img src="../../Assets/Icons/menu-burger 1.svg" alt="" aria-hidden="true" />
+        <img src="Assets/Icons/menu-burger 1.svg" alt="" aria-hidden="true" />
       </button>
     </div>
   </header>
@@ -56,22 +57,23 @@
     <!-- ========================================================== -->
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero__bg" aria-hidden="true">
-        <img src="../../Assets/Photos/imgi_19_Bristol-Machine-Bolts.jpg" alt="" />
+        <img src="Assets/Photos/imgi_19_Bristol-Machine-Bolts.jpg" alt="" />
         <span class="hero__overlay"></span>
       </div>
       <div class="container hero__inner">
-        <p class="eyebrow eyebrow--light">Distributor &middot; Fabricator &middot; Since 1975</p>
-        <h1 id="hero-title" class="hero__title">
+        <p class="eyebrow eyebrow--light" data-reveal>Distributor &middot; Fabricator &middot; Since 1975</p>
+        <h1 id="hero-title" class="hero__title" data-reveal data-reveal-delay="1">
           Structural Fasteners — Distributed and Fabricated, Since 1975.
         </h1>
-        <p class="hero__sub">
+        <p class="hero__sub" data-reveal data-reveal-delay="2">
           From in-stock distributed hardware to custom-fabricated anchor systems, Bristol delivers what your project specifies — with the certifications, traceability, and turnaround serious builders need.
         </p>
-        <div class="hero__cta">
+        <div class="hero__cta" data-reveal data-reveal-delay="3">
           <a href="#contact" class="btn btn--primary">Request a Quote</a>
           <a href="#products" class="btn btn--ghost">Explore Products</a>
         </div>
       </div>
+      <div class="hero__scroll-cue" aria-hidden="true">Scroll</div>
     </section>
 
 
@@ -81,23 +83,23 @@
     <section class="trust-bar" aria-label="Company credentials">
       <div class="container trust-bar__inner">
         <div class="trust-bar__item">
-          <img src="../../Assets/Icons/calendar-check 1.svg" alt="" aria-hidden="true" />
+          <img src="Assets/Icons/calendar-check 1.svg" alt="" aria-hidden="true" />
           <span>Established 1975</span>
         </div>
         <div class="trust-bar__item">
-          <img src="../../Assets/Icons/marker 1.svg" alt="" aria-hidden="true" />
+          <img src="Assets/Icons/marker 1.svg" alt="" aria-hidden="true" />
           <span>Rancho Cucamonga, CA</span>
         </div>
         <div class="trust-bar__item">
-          <img src="../../Assets/Icons/shield-check 1.svg" alt="" aria-hidden="true" />
+          <img src="Assets/Icons/shield-check 1.svg" alt="" aria-hidden="true" />
           <span>ASTM &amp; AISC Compliant</span>
         </div>
         <div class="trust-bar__item">
-          <img src="../../Assets/Icons/compliance-clipboard 1.svg" alt="" aria-hidden="true" />
+          <img src="Assets/Icons/compliance-clipboard 1.svg" alt="" aria-hidden="true" />
           <span>Full Material Traceability</span>
         </div>
         <div class="trust-bar__item">
-          <img src="../../Assets/Icons/phone-call 1.svg" alt="" aria-hidden="true" />
+          <img src="Assets/Icons/phone-call 1.svg" alt="" aria-hidden="true" />
           <span>No Voicemail — Real People Answer</span>
         </div>
       </div>
@@ -109,35 +111,35 @@
     <!-- ========================================================== -->
     <section class="what-we-do" id="products" aria-labelledby="wwd-title">
       <div class="container">
-        <p class="eyebrow">Distributed. Fabricated. Both, under one roof.</p>
-        <h2 id="wwd-title" class="section-title">What We Do</h2>
-        <p class="section-intro">
+        <p class="eyebrow" data-reveal>Distributed. Fabricated. Both, under one roof.</p>
+        <h2 id="wwd-title" class="section-title" data-reveal data-reveal-delay="1">What We Do</h2>
+        <p class="section-intro" data-reveal data-reveal-delay="2">
           Bristol is the rare fastener supplier that runs both ends of the workflow. We stock and ship name-brand industrial hardware, and we engineer custom-fabricated assemblies — in the same building, on the same call, for the same project.
         </p>
 
         <div class="grid grid--2">
-          <article class="card card--feature">
+          <article class="card card--feature" data-reveal data-reveal-delay="1">
             <div class="card__media">
-              <img src="../../Assets/Photos/imgi_20_Bristol-Machine-threaded.jpg" alt="Custom fabricated threaded rod" />
+              <img src="Assets/Photos/imgi_20_Bristol-Machine-threaded.jpg" alt="Custom fabricated threaded rod" />
             </div>
             <div class="card__body">
               <h3 class="card__title">Fabricated Products</h3>
               <p>Custom-engineered anchor bolts, clevis assemblies, threaded rod, U-bolts, and modified hex assemblies — built in-house to your exact specification with full certification packages.</p>
               <a href="#" class="link-arrow">Explore Fabricated Products
-                <img src="../../Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
+                <img src="Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
               </a>
             </div>
           </article>
 
-          <article class="card card--feature">
+          <article class="card card--feature" data-reveal data-reveal-delay="2">
             <div class="card__media">
-              <img src="../../Assets/Photos/imgi_22_Bristol-Machine-Drill-Bits.jpg" alt="Distributed industrial hardware in stock" />
+              <img src="Assets/Photos/imgi_22_Bristol-Machine-Drill-Bits.jpg" alt="Distributed industrial hardware in stock" />
             </div>
             <div class="card__body">
               <h3 class="card__title">Distributed Products</h3>
               <p>Authorized distributor of Simpson Strong-Tie, ITW Red Head, Powers Fasteners, TONE Shear Wrenches, and TC Bolts. Deep stock, fast ship, ready when you are.</p>
               <a href="#" class="link-arrow">Explore Distributed Products
-                <img src="../../Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
+                <img src="Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
               </a>
             </div>
           </article>
@@ -151,65 +153,65 @@
     <!-- ========================================================== -->
     <section class="industries" id="industries" aria-labelledby="industries-title">
       <div class="container">
-        <h2 id="industries-title" class="section-title">Industries We Serve</h2>
-        <p class="section-intro">
+        <h2 id="industries-title" class="section-title" data-reveal>Industries We Serve</h2>
+        <p class="section-intro" data-reveal data-reveal-delay="1">
           Specialized fastening solutions for the projects that build and power Southern California — from utility-scale solar arrays to high-rise curtain wall and the structural steel that holds them together.
         </p>
 
         <div class="grid grid--3 grid--industries">
 
-          <article class="industry-card">
+          <article class="industry-card" data-reveal data-reveal-delay="1">
             <div class="industry-card__icon">
-              <img src="../../Assets/Icons/solar-panel-sun.svg" alt="" aria-hidden="true" />
+              <img src="Assets/Icons/solar-panel-sun.svg" alt="" aria-hidden="true" />
             </div>
             <h3 class="industry-card__title">Alternative Energy &amp; Utilities</h3>
             <p>Stainless and high-grade fasteners stocked for ground-mount and rooftop solar, wind installations, and utility infrastructure.</p>
             <a href="#" class="link-arrow">Learn More
-              <img src="../../Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
+              <img src="Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
             </a>
           </article>
 
-          <article class="industry-card">
+          <article class="industry-card" data-reveal data-reveal-delay="2">
             <div class="industry-card__icon">
-              <img src="../../Assets/Icons/skyscraper.svg" alt="" aria-hidden="true" />
+              <img src="Assets/Icons/skyscraper.svg" alt="" aria-hidden="true" />
             </div>
             <h3 class="industry-card__title">Curtain Wall</h3>
             <p>Anchor systems and concealed fasteners specified to architectural tolerances and supplied to facade-installation schedules.</p>
             <a href="#" class="link-arrow">Learn More
-              <img src="../../Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
+              <img src="Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
             </a>
           </article>
 
-          <article class="industry-card">
+          <article class="industry-card" data-reveal data-reveal-delay="3">
             <div class="industry-card__icon">
-              <img src="../../Assets/Icons/industry.svg" alt="" aria-hidden="true" />
+              <img src="Assets/Icons/industry.svg" alt="" aria-hidden="true" />
             </div>
             <h3 class="industry-card__title">Industrial Fasteners</h3>
             <p>MRO-grade fasteners for plants, mills, and process facilities. Consistent supply for the inventories that can't run dry.</p>
             <a href="#" class="link-arrow">Learn More
-              <img src="../../Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
+              <img src="Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
             </a>
           </article>
 
-          <article class="industry-card">
+          <article class="industry-card" data-reveal data-reveal-delay="4">
             <div class="industry-card__icon">
-              <img src="../../Assets/Icons/bridge.svg" alt="" aria-hidden="true" />
+              <img src="Assets/Icons/bridge.svg" alt="" aria-hidden="true" />
             </div>
             <h3 class="industry-card__title">Marine Fasteners</h3>
             <p>Corrosion-resistant fasteners and assemblies built for dock, vessel, and shoreline applications in coastal environments.</p>
             <a href="#" class="link-arrow">Learn More
-              <img src="../../Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
+              <img src="Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
             </a>
           </article>
 
-          <article class="industry-card">
+          <article class="industry-card" data-reveal data-reveal-delay="5">
             <div class="industry-card__icon">
-              <img src="../../Assets/Icons/bridge-construction.svg" alt="" aria-hidden="true" />
+              <img src="Assets/Icons/bridge-construction.svg" alt="" aria-hidden="true" />
             </div>
             <h3 class="industry-card__title">Structural Steel Fastener Systems</h3>
             <p>F1554 anchor bolts, A325 and A490 structural bolts, and high-strength assemblies for the connections that hold buildings up.</p>
             <a href="#" class="link-arrow">Learn More
-              <img src="../../Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
+              <img src="Assets/Icons/arrow-right.svg" alt="" aria-hidden="true" />
             </a>
           </article>
 
@@ -223,45 +225,45 @@
     <!-- ========================================================== -->
     <section class="why-bristol" id="about" aria-labelledby="why-title">
       <div class="container">
-        <h2 id="why-title" class="section-title">Why Work With Bristol</h2>
-        <p class="section-intro">
+        <h2 id="why-title" class="section-title" data-reveal>Why Work With Bristol</h2>
+        <p class="section-intro" data-reveal data-reveal-delay="1">
           A buyer judges a fastener supplier on five things: the work that goes in, the parts that come out, the people on the phone, the documentation in the box, and how long they'll be around. We've spent fifty years getting all five right.
         </p>
 
         <div class="grid grid--3">
 
-          <article class="why-card">
-            <img class="why-card__icon" src="../../Assets/Icons/tools.svg" alt="" aria-hidden="true" />
+          <article class="why-card" data-reveal data-reveal-delay="1">
+            <img class="why-card__icon" src="Assets/Icons/tools.svg" alt="" aria-hidden="true" />
             <h3 class="why-card__title">Unparalleled Work Ethic</h3>
             <p>From the first call to the loaded truck, our team treats your deadline like ours. No shortcuts, no excuses, no surprises at the dock.</p>
           </article>
 
-          <article class="why-card">
-            <img class="why-card__icon" src="../../Assets/Icons/shield-check 1.svg" alt="" aria-hidden="true" />
+          <article class="why-card" data-reveal data-reveal-delay="2">
+            <img class="why-card__icon" src="Assets/Icons/shield-check 1.svg" alt="" aria-hidden="true" />
             <h3 class="why-card__title">Industry-Leading Reliability</h3>
             <p>Every fabricated product ships with full certification documentation and traceable material standards. ASTM, AISC, and AASHTO compliant — every order, every time.</p>
           </article>
 
-          <article class="why-card">
-            <img class="why-card__icon" src="../../Assets/Icons/phone-call 1.svg" alt="" aria-hidden="true" />
+          <article class="why-card" data-reveal data-reveal-delay="3">
+            <img class="why-card__icon" src="Assets/Icons/phone-call 1.svg" alt="" aria-hidden="true" />
             <h3 class="why-card__title">Real People, No Voicemail</h3>
             <p>Call <a href="tel:9095988601">909.598.8601</a> weekdays and a person answers — not a menu, not a recording. We've held that promise since 1975.</p>
           </article>
 
-          <article class="why-card">
-            <img class="why-card__icon" src="../../Assets/Icons/people-check.svg" alt="" aria-hidden="true" />
+          <article class="why-card" data-reveal data-reveal-delay="4">
+            <img class="why-card__icon" src="Assets/Icons/people-check.svg" alt="" aria-hidden="true" />
             <h3 class="why-card__title">Customer-Centered From Quote to Delivery</h3>
             <p>We listen first, recommend honestly, and follow through. Every decision we make is shaped by what makes your project succeed.</p>
           </article>
 
-          <article class="why-card">
-            <img class="why-card__icon" src="../../Assets/Icons/settings 1.svg" alt="" aria-hidden="true" />
+          <article class="why-card" data-reveal data-reveal-delay="5">
+            <img class="why-card__icon" src="Assets/Icons/settings 1.svg" alt="" aria-hidden="true" />
             <h3 class="why-card__title">Custom Fabrication Built to Your Spec</h3>
             <p>When the catalog doesn't have it, we build it. In-house fabrication for non-standard sizes, finishes, and configurations — engineered to your drawings.</p>
           </article>
 
-          <article class="why-card">
-            <img class="why-card__icon" src="../../Assets/Icons/first-medal.svg" alt="" aria-hidden="true" />
+          <article class="why-card" data-reveal data-reveal-delay="6">
+            <img class="why-card__icon" src="Assets/Icons/first-medal.svg" alt="" aria-hidden="true" />
             <h3 class="why-card__title">Five Decades in Southern California</h3>
             <p>Bristol has supplied the region's structural and industrial projects since 1975 — five decades of relationships that don't break under pressure.</p>
           </article>
@@ -276,11 +278,11 @@
     <!-- ========================================================== -->
     <section class="standards" aria-labelledby="standards-title">
       <div class="container standards__inner">
-        <h2 id="standards-title" class="section-title section-title--light">Standards We Fabricate To</h2>
-        <p class="standards__body">
+        <h2 id="standards-title" class="section-title section-title--light" data-reveal>Standards We Fabricate To</h2>
+        <p class="standards__body" data-reveal data-reveal-delay="1">
           Every fabricated product ships with full traceability and the certification documentation your engineers, inspectors, and project owners require. We supply to the standards that govern serious work — and we keep the paperwork that proves it.
         </p>
-        <div class="standards__list">
+        <div class="standards__list" data-reveal data-reveal-delay="2">
           <span>ASTM</span><span>AISC</span><span>AASHTO</span>
           <span>F1554-36</span><span>F1554-55</span><span>F1554-105</span>
           <span>A193-B7</span><span>A354-BD</span><span>A449</span>
@@ -295,43 +297,85 @@
     <!-- ========================================================== -->
     <section class="testimonials" aria-labelledby="testimonials-title">
       <div class="container">
-        <h2 id="testimonials-title" class="section-title">What Our Clients Say</h2>
+        <h2 id="testimonials-title" class="section-title" data-reveal>What Our Clients Say</h2>
 
-        <div class="grid grid--3">
+        <div class="testimonial-slider" data-reveal data-reveal-delay="1" aria-roledescription="carousel" aria-label="Client testimonials">
+          <div class="testimonial-slider__viewport">
+            <ul class="testimonial-slider__track" id="testimonialTrack">
 
-          <figure class="quote-card">
-            <span class="quote-card__mark" aria-hidden="true">&ldquo;</span>
-            <blockquote>
-              Bristol turned around a custom anchor-bolt run for us in three days — exactly what we needed, exactly to spec. They've earned every order since.
-            </blockquote>
-            <figcaption>
-              <h3>Project Manager, Structural Steel Fabricator</h3>
-              <span class="quote-card__note">Sample testimonial — to confirm</span>
-            </figcaption>
-          </figure>
+              <li class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="1 of 3">
+                <figure class="testimonial-feature">
+                  <div class="testimonial-feature__content">
+                    <span class="testimonial-feature__mark" aria-hidden="true">&ldquo;</span>
+                    <blockquote class="testimonial-feature__quote">
+                      Bristol turned around a custom anchor-bolt run for us in three days — exactly what we needed, exactly to spec. They've earned every order since.
+                    </blockquote>
+                    <figcaption class="testimonial-feature__cite">
+                      <h3>Project Manager</h3>
+                      <span>Structural Steel Fabricator, Southern California</span>
+                      <span class="testimonial-feature__note">Sample testimonial — to confirm</span>
+                    </figcaption>
+                  </div>
+                  <div class="testimonial-feature__media" aria-hidden="true">
+                    <img src="Assets/Photos/imgi_21_Bristol-Machine-threade-bolts.jpg" alt="" />
+                  </div>
+                </figure>
+              </li>
 
-          <figure class="quote-card">
-            <span class="quote-card__mark" aria-hidden="true">&ldquo;</span>
-            <blockquote>
-              When we have a question about a finish or a grade, someone at Bristol picks up. That's why we keep calling.
-            </blockquote>
-            <figcaption>
-              <h3>Procurement Lead, Solar Installation Contractor</h3>
-              <span class="quote-card__note">Sample testimonial — to confirm</span>
-            </figcaption>
-          </figure>
+              <li class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="2 of 3">
+                <figure class="testimonial-feature">
+                  <div class="testimonial-feature__content">
+                    <span class="testimonial-feature__mark" aria-hidden="true">&ldquo;</span>
+                    <blockquote class="testimonial-feature__quote">
+                      When we have a question about a finish or a grade, someone at Bristol picks up. That's why we keep calling.
+                    </blockquote>
+                    <figcaption class="testimonial-feature__cite">
+                      <h3>Procurement Lead</h3>
+                      <span>Solar Installation Contractor</span>
+                      <span class="testimonial-feature__note">Sample testimonial — to confirm</span>
+                    </figcaption>
+                  </div>
+                  <div class="testimonial-feature__media" aria-hidden="true">
+                    <img src="Assets/Photos/imgi_5_image.jpg" alt="" />
+                  </div>
+                </figure>
+              </li>
 
-          <figure class="quote-card">
-            <span class="quote-card__mark" aria-hidden="true">&ldquo;</span>
-            <blockquote>
-              Reliable inventory, accurate certs, no surprises. They're how a fastener supplier should run.
-            </blockquote>
-            <figcaption>
-              <h3>Senior Engineer, Curtain Wall Specialist</h3>
-              <span class="quote-card__note">Sample testimonial — to confirm</span>
-            </figcaption>
-          </figure>
+              <li class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="3 of 3">
+                <figure class="testimonial-feature">
+                  <div class="testimonial-feature__content">
+                    <span class="testimonial-feature__mark" aria-hidden="true">&ldquo;</span>
+                    <blockquote class="testimonial-feature__quote">
+                      Reliable inventory, accurate certs, no surprises. They're how a fastener supplier should run.
+                    </blockquote>
+                    <figcaption class="testimonial-feature__cite">
+                      <h3>Senior Engineer</h3>
+                      <span>Curtain Wall Specialist</span>
+                      <span class="testimonial-feature__note">Sample testimonial — to confirm</span>
+                    </figcaption>
+                  </div>
+                  <div class="testimonial-feature__media" aria-hidden="true">
+                    <img src="Assets/Photos/imgi_2_image.jpg" alt="" />
+                  </div>
+                </figure>
+              </li>
 
+            </ul>
+          </div>
+
+          <div class="testimonial-slider__controls">
+            <button type="button" class="testimonial-slider__btn" data-slider-prev aria-label="Previous testimonial">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <ol class="testimonial-slider__dots" role="tablist" aria-label="Select testimonial">
+              <li><button type="button" class="testimonial-slider__dot is-active" data-slider-dot="0" role="tab" aria-selected="true" aria-label="Testimonial 1"></button></li>
+              <li><button type="button" class="testimonial-slider__dot" data-slider-dot="1" role="tab" aria-selected="false" aria-label="Testimonial 2"></button></li>
+              <li><button type="button" class="testimonial-slider__dot" data-slider-dot="2" role="tab" aria-selected="false" aria-label="Testimonial 3"></button></li>
+            </ol>
+            <button type="button" class="testimonial-slider__btn" data-slider-next aria-label="Next testimonial">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -349,7 +393,7 @@
         <div class="cta-banner__actions">
           <a href="#" class="btn btn--primary btn--lg">Request a Quote</a>
           <a href="tel:9095988601" class="cta-banner__phone">
-            <img src="../../Assets/Icons/phone-call 1.svg" alt="" aria-hidden="true" />
+            <img src="Assets/Icons/phone-call 1.svg" alt="" aria-hidden="true" />
             <span>909.598.8601</span>
           </a>
         </div>
@@ -369,7 +413,7 @@
 
         <div class="site-footer__col site-footer__col--brand">
           <a href="#" class="site-footer__logo" aria-label="Bristol Machine Company — Home">
-            <img src="../../Assets/Logos/Secondary Logo - White.svg" alt="Bristol Machine Company" />
+            <img src="Assets/Logos/Secondary Logo - White.svg" alt="Bristol Machine Company" />
           </a>
           <p>Southern California's trusted fastening distributor and fabricator. Serving the region's structural and industrial projects since 1975.</p>
         </div>
@@ -399,7 +443,7 @@
         <div class="site-footer__col site-footer__col--cta">
           <a href="#contact" class="btn btn--primary">Request a Quote</a>
           <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="site-footer__social" aria-label="LinkedIn">
-            <img src="../../Assets/Icons/linkedin-circle 1.svg" alt="" aria-hidden="true" />
+            <img src="Assets/Icons/linkedin-circle 1.svg" alt="" aria-hidden="true" />
             <span>LinkedIn</span>
           </a>
         </div>
@@ -454,6 +498,67 @@
     (function () {
       var el = document.getElementById('copyrightYear');
       if (el) el.textContent = new Date().getFullYear();
+    })();
+
+    // Scroll reveal — IntersectionObserver with reduced-motion + no-IO fallback
+    (function () {
+      var els = document.querySelectorAll('[data-reveal]');
+      if (!els.length) return;
+      var prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (prefersReduced || !('IntersectionObserver' in window)) {
+        for (var i = 0; i < els.length; i++) els[i].classList.add('is-revealed');
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-revealed');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+
+    // Testimonial slider
+    (function () {
+      var track = document.getElementById('testimonialTrack');
+      if (!track) return;
+      var slider = track.closest('.testimonial-slider');
+      var slides = track.querySelectorAll('.testimonial-slide');
+      var dots = slider.querySelectorAll('[data-slider-dot]');
+      var prev = slider.querySelector('[data-slider-prev]');
+      var next = slider.querySelector('[data-slider-next]');
+      var index = 0;
+      var count = slides.length;
+      if (count < 2) return;
+
+      function go(i) {
+        index = (i + count) % count;
+        track.style.transform = 'translateX(-' + (index * 100) + '%)';
+        for (var d = 0; d < dots.length; d++) {
+          var active = d === index;
+          dots[d].classList.toggle('is-active', active);
+          dots[d].setAttribute('aria-selected', String(active));
+        }
+        for (var s = 0; s < slides.length; s++) {
+          slides[s].setAttribute('aria-hidden', String(s !== index));
+        }
+      }
+
+      prev.addEventListener('click', function () { go(index - 1); });
+      next.addEventListener('click', function () { go(index + 1); });
+      for (var d = 0; d < dots.length; d++) {
+        (function (i) {
+          dots[i].addEventListener('click', function () { go(i); });
+        })(d);
+      }
+      slider.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowLeft') { go(index - 1); e.preventDefault(); }
+        else if (e.key === 'ArrowRight') { go(index + 1); e.preventDefault(); }
+      });
+
+      go(0);
     })();
   </script>
 

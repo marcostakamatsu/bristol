@@ -1,6 +1,9 @@
 # Claude Code local state
 .claude/
 
+# Prompts
+Backups/
+
 # OS
 .DS_Store
 Thumbs.db
