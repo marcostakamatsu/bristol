@@ -772,7 +772,7 @@ ul { list-style: none; padding: 0; margin: 0; }
 .standards {
   position: relative;
   padding: var(--section-pad-y) 0;
-  background: var(--navy);
+  background: linear-gradient(135deg, #000000 0%, var(--navy-deep) 55%, var(--navy) 100%);
   color: var(--white);
   isolation: isolate;
   overflow: hidden;
