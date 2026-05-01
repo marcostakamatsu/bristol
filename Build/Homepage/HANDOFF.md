@@ -3,9 +3,9 @@
 > Short, living document. Update at the end of every session. **Do not** paste diffs here — use `git log -p` for history.
 
 ## Current status
-- **Phase completed:** Industries hover refined — icon background removed, softer hover (no full navy fill)
+- **Phase completed:** Industries section restructured — split layout (photo `viga.png` on the left, 5 row cards on the right with dark navy theme + white-icon filter + white accent bar). What We Do feature cards repointed to `production.png` / `distribution.png`.
 - **Suggested next phase:** Visual QA in browser → real form integration → Products page
-- **Last updated:** 2026-04-30
+- **Last updated:** 2026-05-01
 
 ## Stack & structure
 - Static HTML/CSS, no build step
@@ -21,7 +21,8 @@
 
 ## Established conventions
 - **Card hover:** `translateY(-8px)` + shadow `28px/56px` + border → navy + image `scale(1.06)` + gradient overlay
-- **Industry card:** icon with no background (44px), gentle hover — `translateY(-4px)` + navy border + light shadow, icon `scale(1.06)`, title → navy, arrow translate (no flip to navy fill)
+- **Industries layout:** flex split (`.industries__split`) — `.industries__media` (photo, `order: 1`) left, `.industries__list` (`order: 2`) right with stacked `.industry-row` cards
+- **Industry row card (dark):** navy bg, 56px icon column + body, white title, white-icon via `filter: brightness(0) invert(1)`, hover → `translateX(4px)` + `--navy-deep` bg + white accent bar `scaleY` from left
 - **Why card:** `translateY(-6px)`, 3px navy accent bar on the left (scaleY), icon rotates/scales
 - **Testimonial feature:** 1.15fr/1fr split, featured quote + photo on the right, hover `translateY(-4px)` + image `scale(1.04)` + quote mark scale
 - **Testimonial slider:** flex track with `translateX`, dots + prev/next buttons (44px circle, navy fill on hover), arrow keys when focused, viewport `overflow:hidden`
@@ -59,6 +60,7 @@
 
 ## Workflow for upcoming sessions
 1. **Read this HANDOFF.md first** (the only mandatory step)
+0. **Desktop-only mode:** do not add new `@media` rules or extend existing responsive blocks. Edit/build for desktop (~1024px+) only. Wait for the user to ask "passa nos breakpoints" before doing a responsive sweep.
 2. For bulk mechanical changes → lighter model (Sonnet/Haiku)
 3. For design/a11y/architecture decisions → Opus
 4. Commit at the end of every phase to preserve context in `git log`
