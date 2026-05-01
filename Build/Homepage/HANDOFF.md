@@ -3,8 +3,8 @@
 > Short, living document. Update at the end of every session. **Do not** paste diffs here — use `git log -p` for history.
 
 ## Current status
-- **Phase completed:** Industries section restructured — split layout (photo `viga.png` on the left, 5 row cards on the right with dark navy theme + white-icon filter + white accent bar). What We Do feature cards repointed to `production.png` / `distribution.png`.
-- **Suggested next phase:** Visual QA in browser → real form integration → Products page
+- **Phase completed:** Products page (Hub) built — `products.html` at repo root following Plan/04 Page 2 sitemap. New CSS: `.inner-banner`, `.product-preview`, `.product-card`, `.grid--4`, `.card__eyebrow`, `.img-placeholder`. Copy lives in `Copy/Products.md`. Image prompts in `Build/Products/IMAGE-PROMPTS.md` — 10 placeholders awaiting generation under `Assets/Photos/products/`.
+- **Suggested next phase:** Generate Products images → swap placeholders for `<img>` → Fabricated Products detail (Plan Page 3) or Distributed Products detail (Plan Page 5)
 - **Last updated:** 2026-05-01
 
 ## Stack & structure

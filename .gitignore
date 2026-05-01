@@ -1,7 +1,8 @@
 # Claude Code local state
 .claude/
 
-# Prompts
+# Prompts / scratch
+Backup/
 Backups/
 
 # OS
