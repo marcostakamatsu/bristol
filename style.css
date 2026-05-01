@@ -1457,6 +1457,29 @@ ul { list-style: none; padding: 0; margin: 0; }
   background-size: 48px 48px;
   z-index: -1;
 }
+.inner-banner__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+}
+.inner-banner__content { min-width: 0; }
+.inner-banner__media {
+  position: relative;
+  min-width: 0;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.inner-banner__media img {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  margin-right: -32px;
+  filter: drop-shadow(0 24px 48px rgba(0, 0, 0, 0.45));
+}
 .inner-banner .eyebrow { color: var(--blue-pale); margin-bottom: 18px; }
 .inner-banner__title {
   font-size: clamp(40px, 4.6vw, 64px);
